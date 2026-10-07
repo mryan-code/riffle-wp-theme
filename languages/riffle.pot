@@ -1,0 +1,484 @@
+# Copyright (C) 2026 Matt Ryan
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Riffle 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/midcurrent-sample-theme\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-10-07T22:39:59+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: riffle\n"
+
+#. Theme Name of the theme
+#: style.css
+msgid "Riffle"
+msgstr ""
+
+#. Theme URI of the theme
+#: style.css
+msgid "https://github.com/mryan-code/riffle-wp-theme"
+msgstr ""
+
+#. Description of the theme
+#: style.css
+msgid "An editorial magazine theme for outdoors and fishing publications. Hand-built classic PHP theme with a featured-story front page, members-only content gate, GA4/GTM analytics hooks, lazy Google Publisher Tag ad slots and accessible, responsive markup."
+msgstr ""
+
+#. Author of the theme
+#: style.css
+msgid "Matt Ryan"
+msgstr ""
+
+#. Author URI of the theme
+#: style.css
+msgid "https://github.com/mryan-code"
+msgstr ""
+
+#: 404.php:11
+msgid "Error 404"
+msgstr ""
+
+#: 404.php:12
+msgid "This pool looks fished out."
+msgstr ""
+
+#: 404.php:13
+msgid "The page you were looking for has moved or never existed. Try a search, or pick up one of the latest stories below."
+msgstr ""
+
+#: 404.php:26
+#: front-page.php:43
+msgid "Latest stories"
+msgstr ""
+
+#. translators: 1: number of comments, 2: post title.
+#: comments.php:19
+#, php-format
+msgid "%1$s reply to \"%2$s\""
+msgid_plural "%1$s replies to \"%2$s\""
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:41
+msgid "Older replies"
+msgstr ""
+
+#: comments.php:42
+msgid "Newer replies"
+msgstr ""
+
+#: comments.php:48
+msgid "Replies are closed for this story."
+msgstr ""
+
+#: comments.php:51
+msgid "Join the conversation"
+msgstr ""
+
+#: comments.php:57
+msgid "Leave a reply"
+msgstr ""
+
+#: footer.php:28
+#: inc/customizer.php:256
+msgid "Footer"
+msgstr ""
+
+#. translators: %d: page number.
+#: front-page.php:41
+#, php-format
+msgid "Latest stories, page %d"
+msgstr ""
+
+#: front-page.php:73
+msgid "For members"
+msgstr ""
+
+#: front-page.php:74
+msgid "The Members' Journal"
+msgstr ""
+
+#: front-page.php:76
+msgid "All members stories"
+msgstr ""
+
+#: header.php:18
+msgid "Skip to content"
+msgstr ""
+
+#: header.php:30
+msgid "Primary"
+msgstr ""
+
+#: header.php:33
+msgid "Menu"
+msgstr ""
+
+#: header.php:49
+msgid "Log out"
+msgstr ""
+
+#: header.php:51
+msgid "Log in"
+msgstr ""
+
+#: header.php:54
+#: template-parts/members-gate.php:24
+msgid "Become a member"
+msgstr ""
+
+#: header.php:59
+#: search.php:14
+#: searchform.php:9
+#: searchform.php:14
+msgid "Search"
+msgstr ""
+
+#: header.php:67
+msgid "Site search"
+msgstr ""
+
+#: inc/ads.php:22
+msgid "Leaderboard"
+msgstr ""
+
+#: inc/ads.php:27
+msgid "In-article"
+msgstr ""
+
+#: inc/ads.php:32
+#: sidebar.php:12
+msgid "Sidebar"
+msgstr ""
+
+#: inc/analytics.php:121
+msgid "Google Tag Manager"
+msgstr ""
+
+#: inc/customizer.php:27
+msgid "This story is for members"
+msgstr ""
+
+#: inc/customizer.php:28
+msgid "Members get every field report, gear test and long read, with fewer ads and a quieter reading experience."
+msgstr ""
+
+#: inc/customizer.php:101
+msgid "Riffle theme"
+msgstr ""
+
+#: inc/customizer.php:110
+msgid "Analytics"
+msgstr ""
+
+#: inc/customizer.php:112
+msgid "Use either a GA4 measurement ID or a Google Tag Manager container. If both are set, GTM wins and GA4 should be configured inside GTM."
+msgstr ""
+
+#: inc/customizer.php:117
+msgid "GA4 measurement ID"
+msgstr ""
+
+#: inc/customizer.php:118
+msgid "GTM container ID"
+msgstr ""
+
+#: inc/customizer.php:149
+msgid "Also track logged-in editors and admins"
+msgstr ""
+
+#: inc/customizer.php:159
+msgid "Advertising"
+msgstr ""
+
+#: inc/customizer.php:161
+msgid "Google Ad Manager (GPT). The library only loads when the first ad slot is about to scroll into view."
+msgstr ""
+
+#: inc/customizer.php:174
+msgid "Ad Manager network code"
+msgstr ""
+
+#: inc/customizer.php:190
+msgid "Show labelled placeholders when no network code is set"
+msgstr ""
+
+#: inc/customizer.php:200
+#: inc/members.php:285
+msgid "Membership"
+msgstr ""
+
+#: inc/customizer.php:214
+msgid "Join / subscribe page URL"
+msgstr ""
+
+#: inc/customizer.php:215
+msgid "Leave empty to use the WordPress registration page (if registration is open)."
+msgstr ""
+
+#: inc/customizer.php:231
+msgid "Gate headline"
+msgstr ""
+
+#: inc/customizer.php:246
+msgid "Gate message"
+msgstr ""
+
+#: inc/customizer.php:271
+msgid "Footer note"
+msgstr ""
+
+#. translators: 1: year, 2: site name.
+#: inc/customizer.php:308
+#, php-format
+msgid "&copy; %1$s %2$s. Independent writing about rivers, fish and the people who look after them."
+msgstr ""
+
+#: inc/members.php:172
+msgid "Members only: continue reading on the site."
+msgstr ""
+
+#: inc/members.php:306
+#: inc/template-tags.php:274
+msgid "Members only"
+msgstr ""
+
+#. translators: %s: category slug.
+#: inc/members.php:313
+#, php-format
+msgid "Logged-out readers see the opening paragraphs and a join prompt. Posts in the \"%s\" category are gated automatically."
+msgstr ""
+
+#: inc/setup.php:42
+msgid "Primary navigation"
+msgstr ""
+
+#: inc/setup.php:43
+msgid "Footer navigation"
+msgstr ""
+
+#: inc/setup.php:77
+msgid "Article sidebar"
+msgstr ""
+
+#: inc/setup.php:79
+msgid "Shown beside single stories on wide screens."
+msgstr ""
+
+#. translators: %d: footer column number.
+#: inc/setup.php:90
+#, php-format
+msgid "Footer column %d"
+msgstr ""
+
+#: inc/template-tags.php:77
+msgctxt "post author prefix"
+msgid "By"
+msgstr ""
+
+#. translators: %d: minutes.
+#: inc/template-tags.php:110
+#, php-format
+msgid "%d min read"
+msgid_plural "%d min read"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/template-tags.php:159
+msgid "Members"
+msgstr ""
+
+#: inc/template-tags.php:284
+msgid "Section"
+msgstr ""
+
+#: inc/template-tags.php:287
+msgid "Topic"
+msgstr ""
+
+#: inc/template-tags.php:290
+msgid "Contributor"
+msgstr ""
+
+#: inc/template-tags.php:293
+msgid "From the archive"
+msgstr ""
+
+#: inc/template-tags.php:295
+msgid "Archive"
+msgstr ""
+
+#. translators: %s: search query.
+#: search.php:19
+#, php-format
+msgid "Results for \"%s\""
+msgstr ""
+
+#. translators: %d: number of results.
+#: search.php:29
+#, php-format
+msgid "%d story found."
+msgid_plural "%d stories found."
+msgstr[0] ""
+msgstr[1] ""
+
+#: search.php:35
+msgid "Refine search"
+msgstr ""
+
+#: searchform.php:12
+msgid "Search for:"
+msgstr ""
+
+#: searchform.php:13
+msgid "Search rivers, flies, gear"
+msgstr ""
+
+#: single.php:22
+msgid "Keep reading"
+msgstr ""
+
+#. translators: %s: ad placement name.
+#: template-parts/ad-slot.php:30
+#, php-format
+msgid "Advertisement: %s"
+msgstr ""
+
+#. translators: %s: ad placement name.
+#: template-parts/ad-slot.php:31
+msgid "Advertisement"
+msgstr ""
+
+#: template-parts/author-box.php:13
+msgid "About the author"
+msgstr ""
+
+#: template-parts/content-hero.php:16
+msgid "Featured"
+msgstr ""
+
+#: template-parts/content-none.php:10
+msgid "Nothing here yet"
+msgstr ""
+
+#: template-parts/content-none.php:12
+msgid "No stories matched that search. Try a river, a species or a fly pattern."
+msgstr ""
+
+#. translators: %s: link to the new post screen.
+#: template-parts/content-none.php:18
+#, php-format
+msgid "Ready to publish your first story? <a href=\"%s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:24
+msgid "There is nothing to show here right now. A search might help."
+msgstr ""
+
+#: template-parts/content-page.php:24
+msgid "Page sections"
+msgstr ""
+
+#: template-parts/content-single.php:59
+msgid "Story pages"
+msgstr ""
+
+#: template-parts/members-gate.php:26
+msgid "I'm already a member"
+msgstr ""
+
+#: template-parts/pagination.php:11
+msgid "Newer"
+msgstr ""
+
+#: template-parts/pagination.php:12
+msgid "Older"
+msgstr ""
+
+#: template-parts/pagination.php:13
+msgid "Stories navigation"
+msgstr ""
+
+#: template-parts/pagination.php:14
+msgid "Stories"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Ink"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Forest"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "River"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Rust"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Stone"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Sand"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Paper"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "White"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Fraunces"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Inter"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Small"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Medium"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Large"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Extra large"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Display"
+msgstr ""

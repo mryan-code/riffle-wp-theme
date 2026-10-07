@@ -1,0 +1,26 @@
+{
+	"$schema": "https://playground.wordpress.net/blueprint-schema.json",
+	"meta": {
+		"title": "Riffle WordPress theme demo (local mount)",
+		"description": "Same as blueprint.json, for use with a locally mounted copy of the theme.",
+		"author": "mryan-code",
+		"categories": [
+			"Themes"
+		]
+	},
+	"landingPage": "/",
+	"preferredVersions": {
+		"php": "8.3",
+		"wp": "latest"
+	},
+	"steps": [
+		{
+			"step": "activateTheme",
+			"themeFolderName": "riffle"
+		},
+		{
+			"step": "runPHP",
+			"code": "<?php require_once '/wordpress/wp-load.php'; require '/wordpress/wp-content/themes/riffle/demo/seed.php';"
+		}
+	]
+}

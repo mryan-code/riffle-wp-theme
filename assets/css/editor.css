@@ -1,0 +1,20 @@
+/**
+ * Block editor styles: match the front-end reading column.
+ * Fonts and colours come from theme.json; this only adds the details.
+ */
+.editor-styles-wrapper {
+	font-size: 1.125rem;
+	line-height: 1.75;
+}
+
+.editor-styles-wrapper .wp-block-post-title {
+	font-size: clamp(2.1rem, 1.5rem + 2.6vw, 3.6rem);
+	letter-spacing: -0.01em;
+}
+
+.editor-styles-wrapper blockquote {
+	border-left: 3px solid var(--wp--preset--color--rust);
+	padding-left: 1.25rem;
+	font-family: var(--wp--preset--font-family--serif);
+	font-style: italic;
+}
